@@ -1,9 +1,10 @@
 spring:
+  config:
+    activate:
+      on-profile:
+        - prod
   application:
     name: content-search
-  # 默认 dev 环境
-  profiles:
-    active: dev
   # 支持 swagger3
   mvc:
     pathmatch:
