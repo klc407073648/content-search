@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:8102/api",
+  baseURL: "http://$CONTENT_SEARCH_BACKEND_IP:$CONTENT_SEARCH_BACKEND_PORT/api",
   timeout: 10000,
   headers: {},
 });
