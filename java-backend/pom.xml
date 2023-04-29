@@ -10,9 +10,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yupi</groupId>
-    <artifactId>yuso-backend</artifactId>
+    <artifactId>content-search-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>yuso-backend</name>
+    <name>content-search-backend</name>
     <properties>
         <java.version>1.8</java.version>
     </properties>
